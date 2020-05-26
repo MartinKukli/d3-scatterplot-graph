@@ -1,0 +1,19 @@
+#title,
+#dots {
+  text-align: center;
+  z-index: 0;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  padding: 9px;
+  font: 12px;
+  background: lightsteelblue;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 1;
+}
